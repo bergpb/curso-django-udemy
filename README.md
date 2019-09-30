@@ -11,10 +11,13 @@ Comandos iniciais:
 3. source .venv/bin/activate
 4. pip install django
 5. django-admin startproject simplemooc
-6. django-admin startapp core .
+6. django-admin startapp core
 
 Rodando o projeto:
-1. git clone repourl
-2. cd curso-django && virtualenv .env
-3. pip install -r requirements.txt
-4. python 
+1. mkdir cursodjango
+2. cd curso-django
+3. git clone https://github.com/bergpb/curso-django-udemy.git
+4. cd curso-django-udemy && virtualenv .env
+5. pip install -r requirements.txt
+6. python manage.py runserver
+7. acesse a url: [localhost:8000](localhost:8000)
