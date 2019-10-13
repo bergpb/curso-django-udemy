@@ -4,4 +4,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('simplemooc.core.urls', namespace='core')),
+    path('courses/', include('simplemooc.courses.urls', namespace='courses')),
 ]
